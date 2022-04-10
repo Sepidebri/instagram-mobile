@@ -1,0 +1,24 @@
+@import url('home.css');
+@font-face {
+    font-family: "Billabong";
+    src: url("../font/Billabong.ttf");
+}
+@font-face {
+    font-family: "ios";
+    src: url("../font/SF-Pro.ttf");
+}
+*{
+    font-family: "ios";
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    display: grid;
+    place-items: center;
+
+}
+:root{
+    --wColor : #f5f5f5;
+    --bColor : #2d2d2d;
+}
