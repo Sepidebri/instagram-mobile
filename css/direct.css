@@ -1,0 +1,156 @@
+.direct{
+    display: flex;
+    flex-direction: column;
+}
+.instrument{
+    display:flex;
+    justify-content:center;
+    padding: 0.5rem 1.1rem;
+    align-items:center;
+    border-bottom:1px solid #e2e0e0;
+    background-color:#fafafa;
+    border-top-right-radius:27px;
+    border-top-left-radius:27px;
+    margin-bottom: .4rem;
+}
+.instrument i{
+    font-size:1.3rem;
+    color:var(--bColor);
+}
+.instrument a{
+    font-size:2rem;
+}
+.instrument p{
+    padding-left: 1.5rem;
+}
+.instrument .arrow{
+    margin:0 auto 0 0;
+
+}
+.instrument .video{
+    margin:0 0 0 auto;
+    padding-right:0.8rem
+}
+.direct-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 13rem;
+}
+.direct-main .search-container{
+    border-radius: 0.5rem;
+    justify-content: left;
+    gap: 0;
+    margin-bottom: .4rem;
+
+}
+.direct-main .search-container i{
+    padding:0  0.5rem;
+}
+.direct-main .search-container input{
+    margin: 0 auto 0  0;
+}
+.direct .direct-main ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+}
+.direct .direct-main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    font-size: 0.7rem;
+    position: relative;
+}
+.direct .direct-main section:nth-child(1) .userProfile::after, .direct .direct-main section:nth-child(4) .userProfile::after, .direct .direct-main section:nth-child(7) .userProfile::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url('/assets/direct/popcorn.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 45px;
+    left: 45px;
+    border-radius:50% ;
+    height: 0.6rem;
+    width: 0.6rem;
+    border: 0.3rem solid #ffffff;
+    box-shadow: 0px 1px 2px #dddddd;
+}
+.direct .direct-main section:nth-child(3) .arrow{
+font-size: 0.7rem;
+}
+.direct .direct-main section:nth-child(4) .userProfile::after{
+    background-image: url('/assets/direct/download-icon-home-131964752879605498_512.png');
+
+}
+.direct .direct-main section .userProfile{
+    padding: 0 1rem .6rem .3rem;
+}
+.direct .direct-main section:nth-child(5) .userProfile{
+    padding: 0  2rem 1.6rem 0;
+
+}
+.direct .direct-main section:nth-child(5) .userProfile img{
+    border: none;
+    height: 3rem;
+    width: 3rem;
+}
+
+.direct .direct-main section:nth-child(5) .userProfile::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url('/assets/direct/VxDQx_gA.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 15px;
+    border-radius:50% ;
+    height: 3rem;
+    width: 3rem;
+}
+.direct .direct-main section:nth-child(4) .user-inform .pm, .direct .direct-main section:nth-child(5) .pm, .direct .direct-main section .user-inform .pm small, .direct .direct-main section .user-inform .status{
+    color: #888888ac;
+
+}
+.direct .direct-main section:nth-child(7) .userProfile::after{
+    background-image: url('/assets/direct/move.png');
+
+}
+
+.direct .direct-main section i{
+    margin: 0 0 0 auto;
+    font-size: 1.2rem;
+    color: #888888ac;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--wColor);
+    border-top:1px solid #e2e0e0;
+    height: 10%;
+    border-bottom-right-radius:27px;
+    border-bottom-left-radius:27px;
+}
+.footer i{
+    background-color: #fff;
+    background-image: linear-gradient(to right, #c6d3e7, #a2bfee, #7eaaf5, #5695fa, #1a7ffd);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+}
+.footer span{
+    color:#1a7ffd;
+}

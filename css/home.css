@@ -1,0 +1,93 @@
+ul, li{
+    padding:0;
+    margin:0;
+}
+header .header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    align-items: center;
+}
+header .header-top .logo{
+    font-family: "Billabong";
+    font-size: 2.2rem;
+}
+header .header-top .direct{
+    font-size: 1.3rem;
+}
+/** Story **/
+.story-container{
+    display: flex;
+    overflow: hidden;
+}
+.userProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.3rem;
+}
+.userProfile img{
+    display: block;
+    width: 3.75rem;
+    height:3.75rem;
+    border-radius: 50%;
+    border: 0.15rem solid crimson;
+    padding: 0.1rem;
+}
+ .userProfile span {
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 0.2rem 0;
+}
+.yourProfile img {
+    border: 0.15rem solid gray;
+}
+.yourProfile span{
+    color: gray;
+}
+/* *post* */
+.post-id{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border-top: 1px solid #9e9d9d52;
+    margin-top: 2px;
+}
+.post-id .userProfile{
+    flex-direction: row;
+}
+.post-id .userProfile img{
+    width: 1.875rem;height: 1.875rem;
+    border: 0.1rem solid crimson;
+    padding: 0.05rem;
+    margin-right: 5px;
+}
+.more{
+    margin: 0 0 0 auto;
+    font-size: 1.5rem;
+}
+.post-container img{
+    width: 100%;
+    display: block;
+}
+.post-icon{
+    padding:0.5rem;
+    font-size: 1.2rem;
+    display: flex;
+}
+.post-icon i{
+    cursor: pointer;
+    padding: 2px;
+}
+.like{
+    color: #ed143d;
+}
+.post-icon .save{
+    margin: 0 0 0 auto;
+}
+.post-detail{
+    padding: .5rem;
+    font-size: 0.9rem;
+}
+
